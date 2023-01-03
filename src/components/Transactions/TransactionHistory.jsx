@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 export const TransactionHistory = ({ items }) => {
   return (
     <>
@@ -26,6 +27,16 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
+TransactionHistory.protoTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.number.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ),
+};
 /* <tbody>
   {items.map(item => (
     <tr key={item.id}>
