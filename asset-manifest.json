@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tomm-rodion/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/tomm-rodion/goit-react-hw-01-components/static/js/main.9ba7637b.js",
+    "main.css": "/tomm-rodion/goit-react-hw-01-components/static/css/main.1e16cd58.css",
+    "main.js": "/tomm-rodion/goit-react-hw-01-components/static/js/main.a7e978c7.js",
     "index.html": "/tomm-rodion/goit-react-hw-01-components/index.html",
-    "main.7acaea2f.css.map": "/tomm-rodion/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.9ba7637b.js.map": "/tomm-rodion/goit-react-hw-01-components/static/js/main.9ba7637b.js.map"
+    "main.1e16cd58.css.map": "/tomm-rodion/goit-react-hw-01-components/static/css/main.1e16cd58.css.map",
+    "main.a7e978c7.js.map": "/tomm-rodion/goit-react-hw-01-components/static/js/main.a7e978c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.9ba7637b.js"
+    "static/css/main.1e16cd58.css",
+    "static/js/main.a7e978c7.js"
   ]
 }
