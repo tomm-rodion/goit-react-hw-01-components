@@ -24,15 +24,15 @@ export function Profile({
         </div>
 
         <ul className={css.stats}>
-          <li>
+          <li className={css.wrapperStats}>
             <span className={css.label}>Followers</span>
             <span className={css.quanteti}> {followers}</span>
           </li>
-          <li>
+          <li className={css.wrapperStats}>
             <span className={css.label}>Views</span>
             <span className={css.quanteti}> {views}</span>
           </li>
-          <li>
+          <li className={css.wrapperStats}>
             <span className={css.label}>Likes</span>
             <span className={css.quanteti}> {likes}</span>
           </li>

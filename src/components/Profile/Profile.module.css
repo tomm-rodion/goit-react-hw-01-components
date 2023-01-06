@@ -1,11 +1,11 @@
 .profile {
   border-radius: 8px;
-  margin: 20px auto 0px;
+  margin: 20px auto;
 
   width: 320px;
   background-color: rgb(247, 249, 242);
   overflow: hidden;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px 0px rgba(29, 29, 29, 0.5);
 }
 
 .description {
@@ -43,11 +43,10 @@
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  padding: 0 15px;
+
   justify-content: space-around;
   background-color: rgb(235, 230, 230);
-  height: 80px;
+  height: 90px;
 }
 .label,
 .quanteti {
@@ -59,10 +58,16 @@
   font-size: 16px;
   line-height: 1.86;
   color: rgba(95, 94, 94, 0.784);
+  padding-top: 9px;
 }
 .quanteti {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.86;
   color: black;
+  padding-top: 0;
+}
+
+.wrapperStats {
+  border: 2px solid rgb(194, 193, 193);
 }
