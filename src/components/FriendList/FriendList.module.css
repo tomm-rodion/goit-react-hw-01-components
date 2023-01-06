@@ -12,6 +12,9 @@
 .item:hover {
   scale: 1.1;
 }
+.item:last-child {
+  margin-bottom: 30px;
+}
 
 .isOnline,
 .offline {

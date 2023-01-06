@@ -14,7 +14,12 @@ export function Profile({
     <>
       <div className={css.profile}>
         <div className={css.description}>
-          <img src={avatar} alt="User avatar" className={css.avatar} />
+          <img
+            src={avatar} //"./img/user.jpg" ???
+            width="200px"
+            alt="User avatar"
+            className={css.avatar}
+          />
           <p className={css.name}>{username}</p>
           <p className={css.tag}>
             <MdAlternateEmail className={css.iconEmail} />
@@ -46,12 +51,13 @@ Profile.defaultProps = {
   avatar: 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png',
 };
 
-Profile.PropType = {
+Profile.propType = {
   users: PropType.arrayOf({
     avatar: PropType.string.isRequired,
     username: PropType.string.isRequired,
     tag: PropType.string.isRequired,
     location: PropType.string.isRequired,
+    stats: PropType.objectOf(PropType.number).isRequired,
     followers: PropType.number.isRequired,
     views: PropType.number.isRequired,
     likes: PropType.number.isRequired,
