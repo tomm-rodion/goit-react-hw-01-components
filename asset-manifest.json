@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/tomm-rodion/goit-react-hw-01-components/static/css/main.ccf31130.css",
-    "main.js": "/tomm-rodion/goit-react-hw-01-components/static/js/main.192415ea.js",
-    "static/media/user.jpg": "/tomm-rodion/goit-react-hw-01-components/static/media/user.0e4fd354076cad80f2c9.jpg",
+    "main.js": "/tomm-rodion/goit-react-hw-01-components/static/js/main.524ebba0.js",
     "index.html": "/tomm-rodion/goit-react-hw-01-components/index.html",
     "main.ccf31130.css.map": "/tomm-rodion/goit-react-hw-01-components/static/css/main.ccf31130.css.map",
-    "main.192415ea.js.map": "/tomm-rodion/goit-react-hw-01-components/static/js/main.192415ea.js.map"
+    "main.524ebba0.js.map": "/tomm-rodion/goit-react-hw-01-components/static/js/main.524ebba0.js.map"
   },
   "entrypoints": [
     "static/css/main.ccf31130.css",
-    "static/js/main.192415ea.js"
+    "static/js/main.524ebba0.js"
   ]
 }
