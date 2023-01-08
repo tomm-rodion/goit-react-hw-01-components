@@ -1,7 +1,7 @@
 import PropType from 'prop-types';
 import css from './Profile.module.css';
 import { MdAlternateEmail } from 'react-icons/md';
-import images from 'components/Images/user.jpg';
+// import images from 'components/Images/user.jpg';
 
 export function Profile({
   users: {
@@ -16,7 +16,7 @@ export function Profile({
     <>
       <div className={css.profile}>
         <div className={css.description}>
-          <img src={images} alt="User avatar" className={css.avatar} />
+          <img src={avatar} alt="User avatar" className={css.avatar} />
           <p className={css.name}>{username}</p>
           <p className={css.tag}>
             <MdAlternateEmail className={css.iconEmail} />
