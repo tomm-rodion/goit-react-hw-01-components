@@ -1,7 +1,6 @@
 import PropType from 'prop-types';
 import css from './Profile.module.css';
 import { MdAlternateEmail } from 'react-icons/md';
-// import images from 'components/Images/user.jpg';
 
 export function Profile({
   users: {
