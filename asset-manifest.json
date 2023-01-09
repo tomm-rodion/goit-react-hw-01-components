@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tomm-rodion/goit-react-hw-01-components/static/css/main.c2364e09.css",
-    "main.js": "/tomm-rodion/goit-react-hw-01-components/static/js/main.524ebba0.js",
-    "index.html": "/tomm-rodion/goit-react-hw-01-components/index.html",
-    "main.c2364e09.css.map": "/tomm-rodion/goit-react-hw-01-components/static/css/main.c2364e09.css.map",
-    "main.524ebba0.js.map": "/tomm-rodion/goit-react-hw-01-components/static/js/main.524ebba0.js.map"
+    "main.css": "/tomm-rodion.github.io/goit-react-hw-01-components/static/css/main.c2364e09.css",
+    "main.js": "/tomm-rodion.github.io/goit-react-hw-01-components/static/js/main.524ebba0.js",
+    "index.html": "/tomm-rodion.github.io/goit-react-hw-01-components/index.html",
+    "main.c2364e09.css.map": "/tomm-rodion.github.io/goit-react-hw-01-components/static/css/main.c2364e09.css.map",
+    "main.524ebba0.js.map": "/tomm-rodion.github.io/goit-react-hw-01-components/static/js/main.524ebba0.js.map"
   },
   "entrypoints": [
     "static/css/main.c2364e09.css",
